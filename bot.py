@@ -175,7 +175,7 @@ def get_back_keyboard():
 def get_help_text():
     channels = bot_config.get("required_channels", [])
     count = len(channels)
-    return f"""⚡️ *DEV X HOST | NEON TERMINAL* ⚡️
+    return f"""⚡️ *SOMUXHOST* ⚡️
 *═════════════════════════*
 Welcome to the core system. You have full terminal access. 🚀
 
@@ -1032,5 +1032,5 @@ def handle_callbacks(call):
         )
         bot.answer_callback_query(call.id)
 
-print("⚡️ DEV X HOST is online and waiting...")
+print("⚡️ SOMUXHOST is online and waiting...")
 bot.infinity_polling()
